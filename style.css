@@ -1,0 +1,58 @@
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+@media only screen and (max-width: 300px) {
+body{
+  background-color: red;
+  }
+  div.small {
+      display: block;
+    }
+  div.medium {
+      display:block;
+  }
+  div.large {
+    display: block;
+  }
+}
+@media only screen and (min-width: 300px) {
+    body {
+      background-color: green;
+      font-size: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      }
+      div.small {
+        display: block;
+        width: 66%;
+      }
+      div.medium {
+          display:block;
+          width: 33%;
+      }
+      div.large {
+        display: block;
+        width: 100%;
+      }
+  }
+
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: blue;
+      font-size: 40px;
+      display: flex;
+    }
+    div.small {
+      display: block;
+      width: 33%;
+    }
+    div.medium {
+        display:block;
+        width: 33%;
+    }
+    div.large {
+      display: block;
+      width: 33%;
+    }
+  }
